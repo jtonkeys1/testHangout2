@@ -21,10 +21,7 @@
       }
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/mainBuild.json", {onProgress: UnityProgress});
 
-      window.addEventListener('load', function() {
-        // Checking metamask
-        connectToMetamask();
-      });
+    
     </script>
   </head>
   <body>
@@ -56,14 +53,5 @@
         unityInstance.Module.WebXR.toggleVR();
       }, false);
     </script>
-
-    <section class="jumbotron text-center">
-      <div class="container">
-        <p id="metamaskWarning" class="lead" style="color:red">Please install Metamask and connect to Rinkeby to submit your top score</p>
-        <p>
-          <a href="#" id="btnConnectToMetamask"  onClick="connectToMetamask()" class="btn btn-secondary btn-lg btn-block">Connect to Metamask</a>
-        </p>
-      </div>
-    </section>
   </body>
 </html>
