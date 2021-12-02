@@ -1,0 +1,16 @@
+{
+"companyName": "FusedVR",
+"productName": "UnityPlayground",
+"productVersion": "1.72",
+"dataUrl": "mainBuild.data.unityweb",
+"wasmCodeUrl": "mainBuild.wasm.code.unityweb",
+"wasmFrameworkUrl": "mainBuild.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.23f1"
+}
